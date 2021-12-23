@@ -29,7 +29,7 @@ class App
 		this.renderer.setPixelRatio( window.devicePixelRatio );
 		this.renderer.setSize(window.innerWidth, window.innerHeight);
 
-		this.container.appendChild(this.renderer.domElement);
+		this.container.prepend(this.renderer.domElement);
 		
 		this.camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000 );
 		this.camera.position.y = 9 / 8;
