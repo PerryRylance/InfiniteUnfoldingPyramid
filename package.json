@@ -1,0 +1,28 @@
+{
+  "name": "three-js-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime": "^7.12.5",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "esbuild": "^0.13.10",
+    "gsap": "^3.9.0",
+    "gulp": "^4.0.2",
+    "gulp-esbuild": "^0.9.1",
+    "regenerator-runtime": "^0.13.7",
+    "rollup": "^2.38.0",
+    "three": "^0.134.0",
+    "three-js": "^79.0.0"
+  }
+}
